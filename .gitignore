@@ -1,0 +1,25 @@
+# Archivos de datos (evita subir los CSVs al repositorio)
+*.csv
+*.xlsx
+*.parquet
+
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Archivos de configuración local y credenciales (crucial para SQLAlchemy)
+.env
+.env.local
+
+# Archivos temporales del sistema o editores
+.DS_Store
+.vscode/
+*~
+
+manual.sql
